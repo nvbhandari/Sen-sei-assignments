@@ -86,7 +86,7 @@ public class StudentDriver {
                     System.out.println(stud);
                 } break;
             case 2:
-                Comparator<Student> comparator2 = (s1, s2) -> s1.getName().hashCode() - s2.getName().hashCode();
+                Comparator<Student> comparator2 = (s1, s2) -> s1.getName().compareTo(s2.getName());
                 Collections.sort(student, comparator2);
                 for (Student stud : student) {
                     System.out.println(stud);
