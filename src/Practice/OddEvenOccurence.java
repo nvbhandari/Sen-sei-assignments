@@ -1,5 +1,6 @@
 package Practice;
 
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -26,6 +27,8 @@ public class OddEvenOccurence {
         for(int i=0;i<arr.length;i++){
             System.out.print(" "+arr[i]);
         }
+        LocalDate date = LocalDate.now();
+        System.out.println(date);
         System.out.println();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 1 for odd occuring numbers in array.");
