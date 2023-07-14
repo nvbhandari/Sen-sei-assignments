@@ -12,7 +12,7 @@ public class YearCalender {
                 monthIterate(y, m);
             }
         }
-        public static void monthIterate(int y,int 1998m){
+        public static void monthIterate(int y,int m){
             String[] month = {" ", "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"};
             int days[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
             LocalDate localDate = LocalDate.of(y, m, 1);
@@ -41,7 +41,7 @@ public class YearCalender {
                 }
             }
             System.out.println();
-            System.out.println("---------------------------");
+            System.out.println("----------------------------");
         }
     }
 
