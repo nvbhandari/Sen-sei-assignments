@@ -25,7 +25,7 @@ public class Calender {
                     System.exit(2000);
                 }
             }
-            System.exit(1000);
+
         }
         LocalDate localDate = LocalDate.of(y, m, 1);
         java.time.DayOfWeek dayOfWeek = localDate.getDayOfWeek();

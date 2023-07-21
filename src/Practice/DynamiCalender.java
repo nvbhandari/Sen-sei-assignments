@@ -62,6 +62,10 @@ public class DynamiCalender {
                     System.out.print("    ");
                 }
             }
+            if (day == 7) {
+                day = 0;
+                startDay=0;
+            }
             for (int j=1;j<=d;j++) {
                 if (j < 10) {
                     System.out.print("0" + j + "  ");

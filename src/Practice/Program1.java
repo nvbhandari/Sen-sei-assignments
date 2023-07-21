@@ -29,7 +29,7 @@ public class Program1 {
     }
 
     public static void manipulateString() {
-        String str = "my name is naveen bhandari and i am sofWARE ENGINEER";
+        String str = "my name is naveen bhandari and i am Gawandi";
         String[] st = str.split(" ");
 
         for (int i = 0; i < st.length; i++) {

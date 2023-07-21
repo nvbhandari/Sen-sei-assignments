@@ -60,7 +60,7 @@ class Student {
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", marks=" + marks +
-                '}';
+                '}'+"\n";
 
     }
 
